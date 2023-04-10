@@ -1,0 +1,234 @@
+/* Style sheet created by: Mahesh Bhattarai, 4/6/22 */
+
+
+/* Mobile view*/
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF;
+}
+
+/* Styles for Mobile Layout */
+img {
+	max-width: 100%;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066;
+}
+
+#banner {
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}
+
+nav li {
+	background-color: #000066;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+	
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+
+
+article h3{ 
+	
+	text-align: center;
+	
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	color: #000066;
+}
+
+section {
+	padding: 1em;
+}
+
+article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #ACB7E6;
+}
+
+
+
+/* Style displays the mobile class */
+.mobile {
+display: inline;
+}
+
+
+.desktop {
+	display: none; 
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+	
+/* End of Mobile */
+
+
+/* Tablet viewport*/
+@media only screen and (min-width: 481px) {
+
+
+nav ul {
+	margin: 0;
+	padding: 0.50%;
+	
+}
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+}
+
+main {
+	clear: left;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+
+}
+
+
+/* Desktop Viewport */
+@media only screen and (min-width: 769px) {
+	
+	
+#container {
+	width: 80%;
+}
+
+main {
+	border-style: none;
+	box-shadow: 1em 1em 1em #331400;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+nav {
+	margin-top: -5em;
+}
+
+/*Style specifies margin and padding for unordered list*/
+nav ul {
+	margin : 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style specifies horizontal display for navigation links */
+
+nav li {
+	background-color: #000066;
+	border-radius: 0;
+	border-top: solid #000066;
+	border-bottom: solid #000066;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 18%;
+}
+
+/* Style for navigation link specifies display and padding  */
+
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+nav li a:link {
+	color: #000066;
+	}
+
+nav li a:hover {
+	color: #4C1F00;
+	font-style: italic;
+}
+
+
+section article{
+	width: 22%;
+	float: left;
+	height: 15em;
+	display: inline;
+	
+}
+
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: inline; 
+	}
+	
+ 
+
+}

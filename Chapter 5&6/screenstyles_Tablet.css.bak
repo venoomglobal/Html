@@ -1,0 +1,109 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF;
+}
+
+
+@media screen only and (min-width:481px) {
+img {
+	width: 80%;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+}
+
+main {
+	clear: left;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+.mobile {
+	display: none;
+} 
+    
+
+}
+
+
+@media screen only and (min-width:481px) { 
+
+#container {
+	width: 80%;
+}
+
+img {
+	width: 60%;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+	white-space: nowrap;
+}
+
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+main {
+	border: none;
+	border-radius: 1em;
+	box-shadow: 1em 1em 1em #331400;
+	margin-top: 1em;
+}
+
+nav li a:link {
+	color: #FFFFFF;
+}
+nav li a:hover {
+	color: #CCFFCC;
+	font-size: 1.5em;
+}
+
+body {
+	background: linear-gradient(#FFFFFF, #3366CC);
+}
+
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: inline; 
+}
+
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}

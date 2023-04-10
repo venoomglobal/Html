@@ -1,0 +1,240 @@
+/* Created by: Mahesh Bhattarai 04/08/22	*/
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+
+img{
+	max-width: 100% ;
+	float:left;
+}
+
+
+#outerwrapper {
+	width:70%;
+	margin: 0
+	auto 0 auto;
+}
+
+div p {
+		text-align:center;
+}
+
+
+.myname {
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+}
+
+pre {
+	font-family: Futura, Calibri, sans-serif;
+	
+}
+
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}
+
+nav li {
+	background-color: #FF6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+section {
+	padding: 1%;
+	text-align:center;
+}
+
+article {
+	border-top: solid 0.2em #FF6600;
+	padding: 2%;
+	margin: 0.5%;
+	text-align:left;
+}
+
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #FF6600; 
+	border-bottom: solid 0.2em #FF6600;		
+	}
+
+.mobile {
+	display: block;
+} 
+    
+.desktop {
+	display: none; 
+	}
+	
+
+table, th, td {
+border: solid 0.1em #FF6600;
+border-collapse: collapse;
+padding: 0.5em;
+}
+
+
+caption {
+font-size: 1.5em;
+padding-top: 1.5em;
+padding-bottom: 1em;
+}
+
+
+	
+/* Media query for tablet viewport targets screen size with a minimum width of 481px */
+
+@media only screen and (min-width: 481px) {
+	
+section {
+	background-color: #FF6600;
+	
+}
+
+article {
+	background-color: #FFFFFF;
+	border-top: 0;
+	border-radius: 0 3em 3em 3em;
+	margin-bottom: 1em;
+}
+	
+img {
+	width: 25% ;
+	float: left;
+}
+	
+header p {
+	margin-bottom: 4em;
+	padding-top: 1.5em; 
+}
+	
+	
+/* Style specifies horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%; 
+	padding-left: 0;
+	padding-right: 0;
+	width: 23%;
+}
+
+main {
+	clear: left;
+	margin-top: 12em;
+}
+	
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: inline; 
+	}
+}
+
+/* Desktop Viewport*/
+
+
+@media only screen and (min-width: 769px) {
+
+	
+#container {
+	width: 80%;
+}
+
+nav {
+	margin-top: -5em;
+}
+
+/*Style specifies margin and padding for unordered list*/
+nav ul {
+	margin : 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style specifies horizontal display for navigation links */
+
+nav li {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 18%;
+}
+
+/* Style for navigation link specifies display and padding  */
+
+nav li a {
+	color: #FF6600;
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+nav li a:link {
+	color: #FF6600;
+	}
+
+nav li a:hover {
+	color: #4C1F00;
+	font-style: italic;
+}
+
+main {
+	border: none;
+	border-radius: 1em;
+	box-shadow: 1em 1em 1em #331400;
+	margin-top: 1em;
+	overflow: auto;
+}
+	
+section {
+	float:left;
+	width: 60%;
+}
+
+aside {
+	float:right;
+	width:25%;
+	background-color: #FF6600;
+	color: #FFFFFF;
+}
+
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: inline; 
+	}
+    
+}
+
+
