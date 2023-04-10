@@ -1,0 +1,320 @@
+/* Style sheet created by:Mahesh Bhattarai, 04/25/22  */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #ffffff;
+	
+}
+
+
+
+/*Padding rules */
+div p {
+	padding-left: 1em;
+	padding-right: 1em;
+		
+}
+
+/*Mobile Viewport */
+img {
+	max-width: 100% ;
+	float: left;
+}
+
+
+article {
+	border-top: solid 0.2em #FFFFFF;
+	padding: 0.5%;
+	margin: 0.5%;
+	text-align:left;
+	
+}
+
+	
+	
+/* For the container */
+#container {
+	width:100%;
+	margin: 0
+	auto 0 auto;
+	
+}
+
+/* Style for header */
+
+.myname {
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+}
+
+header p {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color: #404040;
+	border-radius: 0.5em;
+	text-align: center;
+	background: url("images/yellow.jpg");
+}
+		
+/* Navigation  */
+nav {
+	font-family: Futura, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+	
+/* Navigation for ordered list  */
+
+
+nav ul {	
+	padding: 0;
+	margin-top: 1%;
+	margin-bottom: 1%; 
+}
+	
+	
+nav li {
+	list-style-type: none;
+	border-radius: 0.5em;
+	background-color: #0000ff ;
+	margin: 0.5em;
+	padding: 0.1em;
+	
+}
+	
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+
+main {
+	display: block;
+	font-family: Verdana, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	color:#000000;
+	background: url("images/colors.jpg");
+	
+	
+}
+	
+.mobile {
+	display: inline;
+} 
+    
+	
+.desktop {
+	display: none; 
+}
+
+
+section {
+	padding: 1%;
+	text-align:center;
+}
+
+article {
+	border-top: solid 0.2em #FF6600;
+	padding: 2%;
+	margin: 0.5%;
+	text-align:left;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label {
+	display: block;
+}
+	
+/* Media query for tablet viewport targets screen size with a minimum width of 481px */
+
+@media only screen and (min-width: 481px) {
+
+
+section {
+	background-color: #0000ff;
+	background: url("images/img3.jpg");
+	
+}
+
+#container {
+	width: 80%;
+}
+
+
+article {
+	background-color: #FFFFFF;
+	border-top: 0;
+	border-radius: 0 3em 3em 3em;
+	margin-bottom: 1em;
+}
+
+	
+	
+img {
+	width: 25% ;
+	float: left;
+}
+	
+	
+header p {
+	margin-bottom: 4em;
+	padding-top: 1.5em; 
+}
+	
+	
+/* Style specifies horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%; 
+	padding:0;
+	width: 18%;
+	background-color: #0000ff ;
+	
+	
+}
+
+main {
+	clear: left;
+	margin-top: 2em;
+}
+
+
+table, th, td {
+	border: solid 0.1em #FF6600;
+	border-collapse: collapse;
+	padding: 1em;
+	
+}
+
+
+caption {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+
+label {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 8em;
+}
+
+	
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: block; 
+	}
+}
+
+
+
+/* Desktop Viewport*/
+
+
+@media only screen and (min-width: 769px) {
+
+	
+#container {
+	width: 80%;
+}
+
+
+
+/*Style specifies margin and padding for unordered list*/
+nav ul {
+	margin : 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style specifies horizontal display for navigation links */
+
+nav li {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 18%;
+}
+
+/* Style for navigation link specifies display and padding  */
+
+nav li a {
+	color: #0000ff;
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+
+nav li a:link {
+	color: #FF6600;
+	}
+
+nav li a:hover {
+	color: #4C1F00;
+	font-style: italic;
+}
+
+main {
+	border: none;
+	border-radius: 1em;
+	box-shadow: 1em 1em 1em #331400;
+	margin-top: 1em;
+	overflow: auto;
+	
+}
+	
+section {
+	float:left;
+	width: 80%;
+}
+
+
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	background-color:#FFFFFF ;
+	color: #6a5acd ;
+}
+
+
+.mobile {
+	display: none;
+} 
+    
+.desktop {
+	display: inline; 
+	}
+    
+}
+
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+

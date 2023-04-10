@@ -1,0 +1,67 @@
+/* Mahesh Bhattarai 03/13/22	*/
+
+.float-left {
+float:left;
+}
+
+img{
+	max-width: 100% ;
+}
+
+
+#outerwrapper {
+	width:70%;
+	margin: 0
+	auto 0 auto;
+}
+
+#main {
+	clear:both; 
+	background-color:gold;
+	padding:3%;
+	border: 2px black solid;
+	border-radius: 25px;
+}
+
+.myname {
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+}
+
+pre {
+	font-family: Futura, Calibri, sans-serif;
+	
+}
+
+
+
+.mobile {
+	display: inline;
+}
+
+
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}
+
+nav li {
+	background-color: #FF6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
